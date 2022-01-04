@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Super8.aux
+The style file: unsrtnat.bst
+Database file #1: Super8Notes.bib
+Database file #2: Super8.bib
+You've used 19 entries,
+            2481 wiz_defined-function locations,
+            711 strings with 10396 characters,
+and the built_in function-call counts, 10193 in all, are:
+= -- 657
+> -- 1005
+< -- 3
++ -- 355
+- -- 316
+* -- 1065
+:= -- 1861
+add.period$ -- 82
+call.type$ -- 19
+change.case$ -- 38
+chr.to.int$ -- 18
+cite$ -- 19
+duplicate$ -- 358
+empty$ -- 666
+format.name$ -- 339
+if$ -- 1986
+int.to.chr$ -- 2
+int.to.str$ -- 20
+missing$ -- 19
+newline$ -- 128
+num.names$ -- 57
+pop$ -- 114
+preamble$ -- 1
+purify$ -- 19
+quote$ -- 0
+skip$ -- 187
+stack$ -- 0
+substring$ -- 319
+swap$ -- 47
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 133
+warning$ -- 0
+while$ -- 59
+width$ -- 0
+write$ -- 301
