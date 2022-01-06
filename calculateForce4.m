@@ -1,10 +1,8 @@
-function [forDist]=calculateForce4(cylMass, cylRadius, cylLength, quadRadius, ...
+function [force]=calculateForce4(cylMass, cylRadius, cylLength, quadRadius, ...
     tmMass, tmLength, tmRadius, tmWidth, tmPosition, rotor1Position, rotor2Position,...
-    rotor3Position, rotor4Position, rotor5Position, rotor6Position, rotor7Position, rotor8Position)
+    rotor3Position, rotor4Position, display)
     
-    
-    forDist=[];
-    
+       
     RotationSteps=100;
     NCycles=10;
     
@@ -47,7 +45,11 @@ function [forDist]=calculateForce4(cylMass, cylRadius, cylLength, quadRadius, ..
 
         [Force Torque ] = pointMatrixGravity(TranslatedTM, Rotors);
 
-        AngleForceTorque = [AngleForceTorque; angle Force Torque];  
+        AngleForceTorque = [AngleForceTorque; angle Force Torque];
+        
+        if display
+            displayPoints(TranslatedTM, Rotors, []);
+        end
 
     end
     
@@ -66,6 +68,6 @@ function [forDist]=calculateForce4(cylMass, cylRadius, cylLength, quadRadius, ..
 
     w = inv(x'*x)*x'*force;
     
-    forDist = [forDist; sqrt(w(1)^2+w(2)^2)];
+    force = sqrt(w(1)^2+w(2)^2);
 
 end

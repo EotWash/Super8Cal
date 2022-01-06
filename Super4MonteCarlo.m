@@ -1,14 +1,14 @@
 %%
 
-cylLength = 5.08e-2;
-cylRadius = 3.683e-2/2;
-cylMass = 1.0558;
-quadRadius = 6.033e-2;
+cylLength = 5e-2;
+cylRadius = 4e-2/2;
+cylMass = 1;
+quadRadius = 6e-2;
 
-tmLength = 199.8e-3;
-tmRadius = 340.21e-3/2;
-tmWidth = 326.5e-3;
-tmMass = 39.658;
+tmLength = 200e-3;
+tmRadius = 340e-3/2;
+tmWidth = 327e-3;
+tmMass = 40;
 
 rotor1Position = [1 1 0];
 rotor2Position = [1 -1 0];
