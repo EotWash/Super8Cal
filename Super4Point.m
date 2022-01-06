@@ -38,7 +38,7 @@ offForceX = [];
 offForceY = [];
 offForceZ = [];
 
-offset = linspace(-100e-2,100e-2,100);
+offset = linspace(-10e-2,10e-2,100);
 
 for off=offset
     
@@ -91,7 +91,7 @@ grid on
 set(fig2,'Units','Inches');
 pos = get(fig2,'Position');
 set(fig2,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
-print(fig2,'Super4_PerVsZ.pdf','-dpdf','-r1200')
+print(fig2,'Super4_Offset.pdf','-dpdf','-r1200')
 
 
 

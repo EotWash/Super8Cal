@@ -57,7 +57,7 @@ for index=0:N
     
     forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
-        inR2Position, inR3Position, inR4Position)]; 
+        inR2Position, inR3Position, inR4Position, false)]; 
     
 end
 
