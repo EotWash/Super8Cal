@@ -10,10 +10,10 @@ tmRadius = 340e-3/2;
 tmWidth = 327e-3;
 tmMass = 40;
 
-rotor1Position = [1 1 0];
-rotor2Position = [1 -1 0];
-rotor3Position = [-1 1 0];
-rotor4Position = [-1 -1 0];
+rotor1Position = [1.25 1.25 0];
+rotor2Position = [1.25 -1.25 0];
+rotor3Position = [-1.25 1.25 0];
+rotor4Position = [-1.25 -1.25 0];
 
 cylLengthErr = 5e-6;
 cylRadiusErr = 2.5e-6;
