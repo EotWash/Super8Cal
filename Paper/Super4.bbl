@@ -1,0 +1,198 @@
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aasi et~al.(2015)]{aLIGO}
+J.~Aasi et~al.
+\newblock Advanced {LIGO}.
+\newblock \emph{Classical and Quantum Gravity}, 32\penalty0 (7):\penalty0
+  074001, mar 2015.
+\newblock \doi{10.1088/0264-9381/32/7/074001}.
+\newblock URL \url{https://doi.org/10.1088%2F0264-9381%2F32%2F7%2F074001}.
+
+\bibitem[Acernese et~al.(2014)]{virgo}
+F~Acernese et~al.
+\newblock Advanced {Virgo}: a second-generation interferometric gravitational
+  wave detector.
+\newblock \emph{Classical and Quantum Gravity}, 32\penalty0 (2):\penalty0
+  024001, Dec 2014.
+\newblock \doi{10.1088/0264-9381/32/2/024001}.
+\newblock URL \url{https://doi.org/10.1088%2F0264-9381%2F32%2F2%2F024001}.
+
+\bibitem[Saleem et~al.(2021)Saleem, Rana, Gayathri, Vijaykumar, Goyal, Sachdev,
+  Suresh, Sudhagar, Mukherjee, Gaur, Sathyaprakash, Pai, Adhikari, Ajith, and
+  Bose]{ligo-india}
+M~Saleem, Javed Rana, V~Gayathri, Aditya Vijaykumar, Srashti Goyal, Surabhi
+  Sachdev, Jishnu Suresh, S~Sudhagar, Arunava Mukherjee, Gurudatt Gaur,
+  Bangalore Sathyaprakash, Archana Pai, Rana~X Adhikari, P~Ajith, and Sukanta
+  Bose.
+\newblock The science case for {LIGO}-india.
+\newblock \emph{Classical and Quantum Gravity}, 39\penalty0 (2):\penalty0
+  025004, dec 2021.
+\newblock \doi{10.1088/1361-6382/ac3b99}.
+\newblock URL \url{https://doi.org/10.1088/1361-6382/ac3b99}.
+
+\bibitem[Akutsu et~al.(2019)Akutsu, Ando, Arai, Arai, Araki, Araya, Aritomi,
+  Asada, Aso, Atsuta, et~al.]{kagra}
+T~Akutsu, M~Ando, K~Arai, Y~Arai, S~Araki, A~Araya, N~Aritomi, H~Asada, Y~Aso,
+  S~Atsuta, et~al.
+\newblock Kagra: 2.5 generation interferometric gravitational wave detector.
+\newblock \emph{NATURE ASTRONOMY}, 3\penalty0 (1):\penalty0 35, 2019.
+
+\bibitem[Abbott et~al.(2020{\natexlab{a}})Abbott, Abbott, Abraham, Acernese,
+  Ackley, Adams, Adams, Adhikari, Adya, Affeldt, et~al.]{abbott2020population}
+Rich Abbott, TD~Abbott, S~Abraham, F~Acernese, K~Ackley, A~Adams, C~Adams,
+  RX~Adhikari, VB~Adya, C~Affeldt, et~al.
+\newblock Population properties of compact objects from the second {LIGO}-virgo
+  gravitational-wave transient catalog.
+\newblock \emph{arXiv preprint arXiv:2010.14533}, 2020{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2010.14533}.
+
+\bibitem[Abbott et~al.(2021)Abbott, Abbott, Abbott, Abraham, Acernese, Ackley,
+  Adams, Adhikari, Adya, Affeldt, et~al.]{abbott2021gravitational}
+BP~Abbott, R~Abbott, TD~Abbott, S~Abraham, F~Acernese, K~Ackley, C~Adams,
+  RX~Adhikari, VB~Adya, C~Affeldt, et~al.
+\newblock A gravitational-wave measurement of the hubble constant following the
+  second observing run of advanced {LIGO} and virgo.
+\newblock \emph{The Astrophysical Journal}, 909\penalty0 (2):\penalty0 218,
+  2021.
+\newblock URL
+  \url{https://iopscience.iop.org/article/10.3847/1538-4357/abdcb7/}.
+
+\bibitem[Collaboration et~al.(2017)Collaboration, Collaboration, Collaboration,
+  Collaboration, Collaboration, Collaboration, Collaboration, Collaboration,
+  Collaboration, et~al.]{ligo2017gravitational}
+{LIGO}~Scientific Collaboration, Virgo Collaboration, 1M2H Collaboration, Dark
+  Energy Camera GW-EM Collaboration, DES Collaboration, DLT40 Collaboration,
+  Las Cumbres~Observatory Collaboration, VINROUGE Collaboration, MASTER
+  Collaboration, et~al.
+\newblock A gravitational-wave standard siren measurement of the hubble
+  constant.
+\newblock \emph{Nature}, 551\penalty0 (7678):\penalty0 85--88, 2017.
+\newblock URL \url{https://www.nature.com/articles/nature24471}.
+
+\bibitem[Abbott et~al.(2020{\natexlab{b}})Abbott, Abbott, Abraham, Acernese,
+  Ackley, Adams, Adams, Adhikari, Adya, Affeldt, et~al.]{abbott2020tests}
+R~Abbott, TD~Abbott, S~Abraham, F~Acernese, K~Ackley, A~Adams, C~Adams,
+  RX~Adhikari, VB~Adya, C~Affeldt, et~al.
+\newblock Tests of general relativity with binary black holes from the second
+  {LIGO}-virgo gravitational-wave transient catalog.
+\newblock \emph{arXiv preprint arXiv:2010.14529}, 2020{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2010.14529}.
+
+\bibitem[Karki et~al.(2016)Karki, Tuyenbayev, Kandhasamy, Abbott, Abbott,
+  Anders, Berliner, Betzwieser, Cahillane, Canete, et~al.]{PCal}
+S~Karki, D~Tuyenbayev, S~Kandhasamy, BP~Abbott, TD~Abbott, EH~Anders,
+  J~Berliner, J~Betzwieser, C~Cahillane, L~Canete, et~al.
+\newblock The advanced ligo photon calibrators.
+\newblock \emph{Review of Scientific Instruments}, 87\penalty0 (11):\penalty0
+  114503, 2016.
+\newblock URL \url{https://doi.org/10.1063/1.4967303}.
+
+\bibitem[Hirakawa et~al.(1980)Hirakawa, Tsubono, and
+  Oide]{hirakawa1980dynamical}
+Hiromasa Hirakawa, Kimio Tsubono, and Katsunobu Oide.
+\newblock Dynamical test of the law of gravitation.
+\newblock \emph{Nature}, 283\penalty0 (5743):\penalty0 184--185, 1980.
+\newblock URL \url{https://www.nature.com/articles/283184a0}.
+
+\bibitem[Kuroda and Hirakawa(1985)]{kuroda1985experimental}
+Kazuaki Kuroda and Hiromasa Hirakawa.
+\newblock Experimental test of the law of gravitation.
+\newblock \emph{Physical Review D}, 32\penalty0 (2):\penalty0 342, 1985.
+\newblock URL \url{https://doi.org/10.1103/PhysRevD.32.342}.
+
+\bibitem[Mio et~al.(1987)Mio, Tsubono, and Hirakawa]{mio1987experimental}
+Norikatsu Mio, Kimio Tsubono, and Hiromasa Hirakawa.
+\newblock Experimental test of the law of gravitation at small distances.
+\newblock \emph{Physical Review D}, 36\penalty0 (8):\penalty0 2321, 1987.
+\newblock URL \url{https://doi.org/10.1103/PhysRevD.36.2321}.
+
+\bibitem[Astone et~al.(1991)Astone, Bassan, Bates, Bizzarri, Bonifazi,
+  Cardarelli, Cavallari, Coccia, Degasperis, De~Pedis,
+  et~al.]{astone1991evaluation}
+Pia Astone, M~Bassan, S~Bates, R~Bizzarri, P~Bonifazi, R~Cardarelli,
+  G~Cavallari, E~Coccia, A~Degasperis, D~De~Pedis, et~al.
+\newblock Evaluation and preliminary measurement of the interaction of a
+  dynamical gravitational near field with a cryogenic gravitational wave
+  antenna.
+\newblock \emph{Zeitschrift f{\"u}r Physik C Particles and Fields}, 50\penalty0
+  (1):\penalty0 21--29, 1991.
+\newblock URL \url{https://doi.org/10.1007/BF01558552}.
+
+\bibitem[Astone et~al.(1998)Astone, Bassan, Bizzarri, Bonifazi, Brocco,
+  Carelli, Coccia, Cosmelli, Degasperis, Frasca,
+  et~al.]{astone1998experimental}
+P~Astone, M~Bassan, R~Bizzarri, P~Bonifazi, L~Brocco, P~Carelli, E~Coccia,
+  C~Cosmelli, A~Degasperis, S~Frasca, et~al.
+\newblock Experimental study of the dynamic newtonian field with a cryogenic
+  gravitational wave antenna.
+\newblock \emph{The European Physical Journal C-Particles and Fields},
+  5\penalty0 (4):\penalty0 651--664, 1998.
+\newblock URL \url{https://doi.org/10.1007/s100529800987}.
+
+\bibitem[Matone et~al.(2007)Matone, Raffai, M{\'{a}}rka, Grossman, Kalmus,
+  M{\'{a}}rka, Rollins, and Sannibale]{Matone_2007}
+L~Matone, P~Raffai, S~M{\'{a}}rka, R~Grossman, P~Kalmus, Z~M{\'{a}}rka,
+  J~Rollins, and V~Sannibale.
+\newblock Benefits of artificially generated gravity gradients for
+  interferometric gravitational-wave detectors.
+\newblock \emph{Classical and Quantum Gravity}, 24\penalty0 (9):\penalty0
+  2217--2229, apr 2007.
+\newblock \doi{10.1088/0264-9381/24/9/005}.
+\newblock URL \url{https://doi.org/10.1088/0264-9381/24/9/005}.
+
+\bibitem[Estevez et~al.(2018)Estevez, Lieunard, Marion, Mours, Rolland, and
+  Verkindt]{Estevez_2018}
+D~Estevez, B~Lieunard, F~Marion, B~Mours, L~Rolland, and D~Verkindt.
+\newblock First tests of a newtonian calibrator on an interferometric
+  gravitational wave detector.
+\newblock \emph{Classical and Quantum Gravity}, 35\penalty0 (23):\penalty0
+  235009, nov 2018.
+\newblock \doi{10.1088/1361-6382/aae95f}.
+\newblock URL \url{https://doi.org/10.1088%2F1361-6382%2Faae95f}.
+
+\bibitem[Estevez et~al.(2021)Estevez, Mours, and Pradier]{estevez2021newtonian}
+Dimitri Estevez, Beno{\^\i}t Mours, and Thierry Pradier.
+\newblock Newtonian calibrator tests during the virgo o3 data taking.
+\newblock \emph{Classical and Quantum Gravity}, 2021.
+\newblock URL
+  \url{https://iopscience.iop.org/article/10.1088/1361-6382/abe2da}.
+
+\bibitem[Inoue et~al.(2018)Inoue, Haino, Kanda, Ogawa, Suzuki, Tomaru,
+  Yamanmoto, and Yokozawa]{PhysRevD.98.022005}
+Yuki Inoue, Sadakazu Haino, Nobuyuki Kanda, Yujiro Ogawa, Toshikazu Suzuki,
+  Takayuki Tomaru, Takahiro Yamanmoto, and Takaaki Yokozawa.
+\newblock Improving the absolute accuracy of the gravitational wave detectors
+  by combining the photon pressure and gravity field calibrators.
+\newblock \emph{Phys. Rev. D}, 98:\penalty0 022005, Jul 2018.
+\newblock \doi{10.1103/PhysRevD.98.022005}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.98.022005}.
+
+\bibitem[Ross et~al.(2021)Ross, Mistry, Datrier, Kissel, Venkateswara, Weller,
+  Kumar, Hagedorn, Adelberger, Lee, Shaw, Thomas, Barker, Clara, Gateley,
+  Guidry, Daw, Hendry, and Gundlach]{ncal}
+Michael~P. Ross, Timesh Mistry, Laurence Datrier, Jeff Kissel, Krishna
+  Venkateswara, Colin Weller, Kavic Kumar, Charlie Hagedorn, Eric Adelberger,
+  John Lee, Erik Shaw, Patrick Thomas, David Barker, Filiberto Clara, Bubba
+  Gateley, Tyler~M. Guidry, Ed~Daw, Martin Hendry, and Jens Gundlach.
+\newblock Initial results from the ligo newtonian calibrator.
+\newblock \emph{Phys. Rev. D}, 104:\penalty0 082006, Oct 2021.
+\newblock \doi{10.1103/PhysRevD.104.082006}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.104.082006}.
+
+\bibitem[{Hagedorn}(2015)]{Hagedorn}
+Charles~A. {Hagedorn}.
+\newblock \emph{{A Sub-Millimeter Parallel-Plate Test of Gravity}}.
+\newblock PhD thesis, University of Washington, January 2015.
+
+\bibitem[Hagedorn and Lee(2021)]{pgURL}
+C~Hagedorn and JG~Lee.
+\newblock Newt (newtonian eot-wash toolkit).
+\newblock \emph{GitHub}, 2021.
+\newblock URL \url{https://github.com/4kbt/NewtonianEotWashToolkit}.
+
+\end{thebibliography}

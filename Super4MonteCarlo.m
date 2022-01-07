@@ -95,7 +95,7 @@ grid on
 set(fig1,'Units','Inches');
 pos = get(fig1,'Position');
 set(fig1,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
-print(fig1,'Super8_Dist.pdf','-dpdf','-r1200')
+print(fig1,'Super4_Dist.pdf','-dpdf','-r1200')
 
 
 
