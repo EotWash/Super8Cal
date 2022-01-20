@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.4.5)  20 JAN 2022 11:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.4.5)  20 JAN 2022 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -677,64 +677,77 @@ loading the todonotes package. on input line 11.
 
 \openout3 = `Super4Notes.bib'.
 
-<Super4_Model.pdf, id=29, 587.55508pt x 388.81259pt>
+<Super4_Model.pdf, id=29, 518.17589pt x 365.6862pt>
 File: Super4_Model.pdf Graphic file (type pdf)
 <use Super4_Model.pdf>
-Package pdftex.def Info: Super4_Model.pdf  used on input line 53.
-(pdftex.def)             Requested size: 255.0pt x 168.74648pt.
+Package pdftex.def Info: Super4_Model.pdf  used on input line 51.
+(pdftex.def)             Requested size: 255.0pt x 179.95782pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 53--54
- [][] 
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Super4_Model.pdf>]
-<Super4_Offset.pdf, id=56, 568.1225pt x 463.7325pt>
-File: Super4_Offset.pdf Graphic file (type pdf)
-<use Super4_Offset.pdf>
-Package pdftex.def Info: Super4_Offset.pdf  used on input line 109.
-(pdftex.def)             Requested size: 255.0pt x 208.14699pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 109--110
+Overfull \hbox (9.0pt too wide) in paragraph at lines 51--52
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2]
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Super4_Model.pdf>]
+<Super4_BSC.pdf, id=56, 364.9635pt x 377.24939pt>
+File: Super4_BSC.pdf Graphic file (type pdf)
+<use Super4_BSC.pdf>
+Package pdftex.def Info: Super4_BSC.pdf  used on input line 98.
+(pdftex.def)             Requested size: 255.0pt x 263.58923pt.
 
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 119.
+Overfull \hbox (9.0pt too wide) in paragraph at lines 98--99
+ [][] 
+ []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 120--121
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `BSC' on page 2 undefined on input line 105.
+
+[2 <./Super4_BSC.PDF>]
+<Super4_Offset.pdf, id=68, 775.89874pt x 587.19376pt>
+File: Super4_Offset.pdf Graphic file (type pdf)
+<use Super4_Offset.pdf>
+Package pdftex.def Info: Super4_Offset.pdf  used on input line 143.
+(pdftex.def)             Requested size: 255.0pt x 192.97711pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 143--144
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <./Super4_Offset.pdf>]
+<Super4_Dist.pdf, id=98, 421.575pt x 316.18124pt>
+File: Super4_Dist.pdf Graphic file (type pdf)
+<use Super4_Dist.pdf>
+Package pdftex.def Info: Super4_Dist.pdf  used on input line 158.
+(pdftex.def)             Requested size: 255.0pt x 191.25406pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 158--159
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 168--169
 []\OT1/cmr/m/n/10 The sim-u-la-tion yields an in-jected ac-cel-er-a-tion of
  []
 
-<Super4_Dist.pdf, id=62, 429.605pt x 311.1625pt>
-File: Super4_Dist.pdf Graphic file (type pdf)
-<use Super4_Dist.pdf>
-Package pdftex.def Info: Super4_Dist.pdf  used on input line 123.
-(pdftex.def)             Requested size: 255.0pt x 184.70004pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 123--124
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
+
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 172--173
+Underfull \hbox (badness 1515) in paragraph at lines 179--180
 \OT1/cmr/m/n/10 tle, was sup-ported by fund-ing from the NSF un-
  []
 
-[3 <./Super4_Offset.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 173.
-
-(./Super4.bbl
+(./Super4.bbl [4 <./Super4_Dist.pdf>]
 Underfull \hbox (badness 1881) in paragraph at lines 68--76
  []\OT1/cmr/m/n/9 LIGO Sci-en-tific Col-lab-o-ra-tion, Virgo Col-lab-o-ra-tion,
 
@@ -745,7 +758,7 @@ Underfull \hbox (badness 1024) in paragraph at lines 88--94
  \OT1/cmr/m/n/9 TD Ab-bott, EH An-ders, J Berliner, J Bet-zwieser,
  []
 
-[4 <./Super4_Dist.pdf>]
+
 Underfull \hbox (badness 2050) in paragraph at lines 139--147
  \OT1/cmr/m/n/9 Z M^^Sarka, J Rollins, and V San-ni-bale.  Ben-e-fits
  []
@@ -773,36 +786,41 @@ Use acknowledgments instead.
 \tf@loc=\write6
 \openout6 = `Super4.loc'.
 
-[5] (./Super4.aux) ) 
+[5] (./Super4.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17027 strings out of 481176
- 319081 string characters out of 5914227
- 622828 words of memory out of 5000000
- 33640 multiletter control sequences out of 15000+600000
- 409339 words of font info for 49 fonts, out of 8000000 for 9000
+ 17040 strings out of 481176
+ 319268 string characters out of 5914227
+ 639895 words of memory out of 5000000
+ 33651 multiletter control sequences out of 15000+600000
+ 409647 words of font info for 50 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 117i,9n,116p,999b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Super4.pdf (5 pages, 299879 bytes).
+ 117i,9n,116p,1008b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt9.pfb>
+Output written on Super4.pdf (5 pages, 372224 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
+ 179 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

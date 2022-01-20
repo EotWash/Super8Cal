@@ -15,10 +15,12 @@ CylMass = 1;
 
 % Rotor Parameters
 QuadRadius = 6e-2; % Quadrople radius
-R1Position = [1.25 1.25 0];
-R2Position = [1.25 -1.25 0];
-R3Position = [-1.25 1.25 0];
-R4Position = [-1.25 -1.25 0];
+x = 4.50;
+y = 2.25;
+R1Position = [x/2 y/2 0];
+R2Position = [x/2 -y/2 0];
+R3Position = [-x/2 y/2 0];
+R4Position = [-x/2 -y/2 0];
 
 % Test Mass Parameters
 TMLength = 200e-3;
