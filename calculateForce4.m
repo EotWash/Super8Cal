@@ -6,11 +6,11 @@ function [force]=calculateForce4(cylMass, cylRadius, cylLength, quadRadius, ...
     RotationSteps=100;
     NCycles=10;
     
-    CylinderAxialGridPoints = 5;
-    CylinderRadialGridPoints = 5;
+    CylinderAxialGridPoints = 10;
+    CylinderRadialGridPoints = 10;
     
-    TMAxialGridPoints = 5;
-    TMRadialGridPoints = 5;
+    TMAxialGridPoints = 10;
+    TMRadialGridPoints = 10;
 
     Cylinder = genPointMassAnnlSheet(cylMass, 0, cylRadius, ...
             cylLength, CylinderAxialGridPoints, CylinderRadialGridPoints);

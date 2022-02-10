@@ -32,7 +32,7 @@ TMPosition = [0 0 0];
 
 xFor=calculateForce4(CylMass, CylRadius, CylLength,QuadRadius, TMMass,...
         TMLength, TMRadius, TMWidth, TMPosition, R1Position, ...
-        R2Position, R3Position, R4Position, true)
+        R2Position, R3Position, R4Position, true)/TMMass*1e15
 
 %% Offset Calculation
 
