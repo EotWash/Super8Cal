@@ -1,47 +1,47 @@
-This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Super4.aux
 The style file: unsrtnat.bst
 Database file #1: Super4Notes.bib
 Database file #2: Super8.bib
-You've used 21 entries,
+You've used 22 entries,
             2481 wiz_defined-function locations,
-            722 strings with 10626 characters,
-and the built_in function-call counts, 10745 in all, are:
-= -- 708
-> -- 1027
+            730 strings with 10954 characters,
+and the built_in function-call counts, 11295 in all, are:
+= -- 745
+> -- 1078
 < -- 5
-+ -- 365
-- -- 322
-* -- 1098
-:= -- 1957
-add.period$ -- 89
-call.type$ -- 21
-change.case$ -- 41
-chr.to.int$ -- 20
-cite$ -- 21
-duplicate$ -- 391
-empty$ -- 714
-format.name$ -- 349
-if$ -- 2100
++ -- 383
+- -- 338
+* -- 1159
+:= -- 2056
+add.period$ -- 94
+call.type$ -- 22
+change.case$ -- 43
+chr.to.int$ -- 21
+cite$ -- 22
+duplicate$ -- 410
+empty$ -- 751
+format.name$ -- 366
+if$ -- 2208
 int.to.chr$ -- 2
-int.to.str$ -- 22
-missing$ -- 20
-newline$ -- 139
-num.names$ -- 63
-pop$ -- 128
+int.to.str$ -- 23
+missing$ -- 21
+newline$ -- 146
+num.names$ -- 66
+pop$ -- 133
 preamble$ -- 1
-purify$ -- 21
+purify$ -- 22
 quote$ -- 0
-skip$ -- 208
+skip$ -- 217
 stack$ -- 0
-substring$ -- 323
-swap$ -- 52
+substring$ -- 343
+swap$ -- 55
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 147
+type$ -- 154
 warning$ -- 0
-while$ -- 63
+while$ -- 66
 width$ -- 0
-write$ -- 328
+write$ -- 345

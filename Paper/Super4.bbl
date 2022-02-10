@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -91,6 +91,17 @@ S~Karki, D~Tuyenbayev, S~Kandhasamy, BP~Abbott, TD~Abbott, EH~Anders,
 \newblock \emph{Review of Scientific Instruments}, 87\penalty0 (11):\penalty0
   114503, 2016.
 \newblock URL \url{https://doi.org/10.1063/1.4967303}.
+
+\bibitem[Bhattacharjee et~al.(2020)Bhattacharjee, Lecoeuche, Karki, Betzwieser,
+  Bossilkov, Kandhasamy, Payne, and Savage]{Bhattacharjee_2020}
+D~Bhattacharjee, Y~Lecoeuche, S~Karki, J~Betzwieser, V~Bossilkov, S~Kandhasamy,
+  E~Payne, and R~L Savage.
+\newblock Fiducial displacements with improved accuracy for the global network
+  of gravitational wave detectors.
+\newblock \emph{Classical and Quantum Gravity}, 38\penalty0 (1):\penalty0
+  015009, dec 2020.
+\newblock \doi{10.1088/1361-6382/aba9ed}.
+\newblock URL \url{https://doi.org/10.1088/1361-6382/aba9ed}.
 
 \bibitem[Hirakawa et~al.(1980)Hirakawa, Tsubono, and
   Oide]{hirakawa1980dynamical}
