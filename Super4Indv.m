@@ -31,6 +31,8 @@ tmMassErr = 10e-3;
 rotorPositionErr = [1e-3 1e-3 1e-3];
 tmPositionErr = [1e-2 1e-2 1e-2];
 
+rotorPhaseErr = 1/180*pi;
+
 N=1e2;
 
 %% Cyl Mass Calculation
@@ -60,7 +62,7 @@ for index=0:N
     
     forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
-        inR2Position, inR3Position, inR4Position, false)]; 
+        inR2Position, inR3Position, inR4Position, 0, false)]; 
     
 end
 
@@ -102,7 +104,7 @@ for index=0:N
     
     forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
-        inR2Position, inR3Position, inR4Position, false)]; 
+        inR2Position, inR3Position, inR4Position, 0, false)]; 
 end
 
 accDis = forDist/tmMass;
@@ -143,7 +145,7 @@ for index=0:N
     
     forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
-        inR2Position, inR3Position, inR4Position, false)]; 
+        inR2Position, inR3Position, inR4Position, 0, false)]; 
     
 end
 
@@ -186,7 +188,7 @@ for index=0:N
     
     forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
-        inR2Position, inR3Position, inR4Position,false)]; 
+        inR2Position, inR3Position, inR4Position, 0, false)]; 
     
 end
 
@@ -228,7 +230,7 @@ for index=0:N
     
     forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
-        inR2Position, inR3Position, inR4Position, false)]; 
+        inR2Position, inR3Position, inR4Position, 0, false)]; 
     
 end
 
@@ -271,7 +273,7 @@ for index=0:N
     
     forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
-        inR2Position, inR3Position, inR4Position, false)]; 
+        inR2Position, inR3Position, inR4Position, 0, false)]; 
     
 end
 
@@ -313,7 +315,7 @@ for index=0:N
     
     forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
-        inR2Position, inR3Position, inR4Position, false)]; 
+        inR2Position, inR3Position, inR4Position, 0, false)]; 
     
 end
 
@@ -355,7 +357,7 @@ for index=0:N
     
     forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
-        inR2Position, inR3Position, inR4Position, false)]; 
+        inR2Position, inR3Position, inR4Position, 0, false)]; 
     
 end
 
@@ -397,7 +399,7 @@ for index=0:N
     
     forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
-        inR2Position, inR3Position, inR4Position, false)]; 
+        inR2Position, inR3Position, inR4Position, 0, false)]; 
     
 end
 
@@ -440,7 +442,7 @@ for index=0:N
     
     forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
-        inR2Position, inR3Position, inR4Position, false)]; 
+        inR2Position, inR3Position, inR4Position, 0, false)]; 
     
 end
 
@@ -453,4 +455,47 @@ low = prctile(accDis,15.9);
 err = max([up-mu,mu-low]);
 
 disp(['TM Position: ' num2str(mu*1e15) ' fm/s^2 +- ' num2str(err*1e15) ' fm/s^2 (' ...
+    num2str(err/mu*100) ' % )']);
+
+%% TM Position Calculation
+
+forDist = [];
+
+for index=0:N    
+    
+    inCylMass = cylMass;
+    inCylRadius = cylRadius;
+    inCylLength = cylLength;
+    inQuadRadius = quadRadius;
+    
+    
+    inTMMass = tmMass;
+    inTMRadius = tmRadius;
+    inTMLength = tmLength;
+    inTMWidth = tmWidth;
+    
+    
+    inR1Position = rotor1Position;
+    inR2Position = rotor2Position;
+    inR3Position = rotor3Position;
+    inR4Position = rotor4Position;        
+        
+
+    inTMPosition = [0 0 0];
+    
+    forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
+        inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
+        inR2Position, inR3Position, inR4Position, rotorPhaseErr, false)]; 
+    
+end
+
+accDis = forDist/tmMass;
+
+mu = prctile(accDis,50);
+up = prctile(accDis,84.1);
+low = prctile(accDis,15.9);
+
+err = max([up-mu,mu-low]);
+
+disp(['Rotor Phase: ' num2str(mu*1e15) ' fm/s^2 +- ' num2str(err*1e15) ' fm/s^2 (' ...
     num2str(err/mu*100) ' % )']);

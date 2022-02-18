@@ -30,6 +30,8 @@ tmMassErr = 10e-3;
 rotorPositionErr = [1e-3 1e-3 1e-3];
 tmPositionErr = [1e-2 1e-2 1e-2];
 
+rotorPhaseErr = 1/180*pi;
+
 %% Offset Calculation
 
 forDist = [];
@@ -59,7 +61,7 @@ for index=0:N
     
     forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
-        inR2Position, inR3Position, inR4Position, false)]; 
+        inR2Position, inR3Position, inR4Position, rotorPhaseErr, false)]; 
     
 end
 

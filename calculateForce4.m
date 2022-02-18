@@ -1,16 +1,16 @@
 function [force]=calculateForce4(cylMass, cylRadius, cylLength, quadRadius, ...
     tmMass, tmLength, tmRadius, tmWidth, tmPosition, rotor1Position, rotor2Position,...
-    rotor3Position, rotor4Position, display)
+    rotor3Position, rotor4Position, rotorPhaseErr, display)
     
        
     RotationSteps=100;
     NCycles=10;
     
-    CylinderAxialGridPoints = 10;
-    CylinderRadialGridPoints = 10;
+    CylinderAxialGridPoints = 5;
+    CylinderRadialGridPoints = 5;
     
-    TMAxialGridPoints = 10;
-    TMRadialGridPoints = 10;
+    TMAxialGridPoints = 5;
+    TMRadialGridPoints = 5;
 
     Cylinder = genPointMassAnnlSheet(cylMass, 0, cylRadius, ...
             cylLength, CylinderAxialGridPoints, CylinderRadialGridPoints);
@@ -28,10 +28,10 @@ function [force]=calculateForce4(cylMass, cylRadius, cylLength, quadRadius, ...
 
     for angle = 2*pi/RotationSteps:2*pi/RotationSteps:2*pi
 
-        RotatedRotor1 = rotatePMArray(Rotor, angle, [0 0 1]);
-        RotatedRotor2 = rotatePMArray(Rotor, -angle, [0 0 1]);
-        RotatedRotor3 = rotatePMArray(Rotor, -angle+pi/2, [0 0 1]);
-        RotatedRotor4 = rotatePMArray(Rotor, angle+pi/2, [0 0 1]);
+        RotatedRotor1 = rotatePMArray(Rotor, angle + randn*rotorPhaseErr, [0 0 1]);
+        RotatedRotor2 = rotatePMArray(Rotor, -angle + randn*rotorPhaseErr, [0 0 1]);
+        RotatedRotor3 = rotatePMArray(Rotor, -angle+pi/2 + randn*rotorPhaseErr, [0 0 1]);
+        RotatedRotor4 = rotatePMArray(Rotor, angle+pi/2 + randn*rotorPhaseErr, [0 0 1]);
 
         TranslatedRotatedRotor1 = translatePMArray(RotatedRotor1, rotor1Position);
         TranslatedRotatedRotor2 = translatePMArray(RotatedRotor2, rotor2Position);
