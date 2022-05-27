@@ -32,7 +32,7 @@ TMPosition = [0 0 0];
 
 xFor=calculateForce4(CylMass, CylRadius, CylLength,QuadRadius, TMMass,...
         TMLength, TMRadius, TMWidth, TMPosition, R1Position, ...
-        R2Position, R3Position, R4Position, true)/TMMass*1e15
+        R2Position, R3Position, R4Position, 0, false)
 
 %% Offset Calculation
 
@@ -48,7 +48,7 @@ for off=offset
     
     forceX = calculateForce4(CylMass, CylRadius, CylLength,QuadRadius, TMMass,...
         TMLength, TMRadius, TMWidth, TMPosition+offVec, R1Position, ...
-        R2Position, R3Position, R4Position, false);
+        R2Position, R3Position, R4Position, 0, false);
     
     offForceX = [offForceX; forceX];
 end
@@ -59,7 +59,7 @@ for off=offset
     
     forceY = calculateForce4(CylMass, CylRadius, CylLength,QuadRadius, TMMass,...
         TMLength, TMRadius, TMWidth, TMPosition+offVec, R1Position, ...
-        R2Position, R3Position, R4Position, false);
+        R2Position, R3Position, R4Position, 0, false);
     
     offForceY = [offForceY; forceY];
 end
@@ -70,7 +70,7 @@ for off=offset
     
     forceZ = calculateForce4(CylMass, CylRadius, CylLength,QuadRadius, TMMass,...
         TMLength, TMRadius, TMWidth, TMPosition+offVec, R1Position, ...
-        R2Position, R3Position, R4Position, false);
+        R2Position, R3Position, R4Position, 0, false);
     
     offForceZ = [offForceZ; forceZ];
 end
