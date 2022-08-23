@@ -36,6 +36,8 @@ rotorPhaseErr = 1/180*pi;
 
 forDist = [];
 
+accDist = [];
+
 N=2e3;
 
 for index=0:N    
@@ -63,13 +65,14 @@ for index=0:N
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
         inR2Position, inR3Position, inR4Position, rotorPhaseErr, false)]; 
     
+    accDist = [accDist; forDist(end)/inTMMass];
+    
 end
 
-accDis = forDist/tmMass;
 %% Figures
-mu = prctile(accDis,50);
-up = prctile(accDis,84.1);
-low = prctile(accDis,15.9);
+mu = prctile(accDist,50);
+up = prctile(accDist,84.1);
+low = prctile(accDist,15.9);
 
 err = max([up-mu,mu-low]);
 
@@ -81,7 +84,7 @@ disp(['Acceleration: ' num2str(mu*1e15) ' fm/s^2 +- ' num2str(err*1e15) ' fm/s^2
 % x=linspace(mu-3*sig,mu+3*sig,1000);
 
 fig1=figure(1);
-histogram(accDis*1e15);
+histogram(accDist*1e15);
 % hold on
 % l=plot([mu mu]*1e12,[0 120],'--',[up up]*1e12,[0 120],'--',[low low]*1e12,[0 120],'--');
 % hold off

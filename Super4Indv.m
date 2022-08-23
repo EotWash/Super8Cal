@@ -38,6 +38,8 @@ N=1e2;
 %% Cyl Mass Calculation
 
 forDist = [];
+accDist = [];
+
 
 for index=0:N    
     
@@ -64,13 +66,13 @@ for index=0:N
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
         inR2Position, inR3Position, inR4Position, 0, false)]; 
     
+    accDist = [accDist; forDist(end)/inTMMass];
+    
 end
 
-accDis = forDist/tmMass;
-
-mu = prctile(accDis,50);
-up = prctile(accDis,84.1);
-low = prctile(accDis,15.9);
+mu = prctile(accDist,50);
+up = prctile(accDist,84.1);
+low = prctile(accDist,15.9);
 
 err = max([up-mu,mu-low]);
 
@@ -80,6 +82,8 @@ disp(['Cyl Mass: ' num2str(mu*1e15) ' fm/s^2 +- ' num2str(err*1e15) ' fm/s^2 (' 
 %% Cyl Radius Calculation
 
 forDist = [];
+accDist = [];
+
 
 for index=0:N    
     
@@ -105,13 +109,13 @@ for index=0:N
     forDist = [forDist; calculateForce4(inCylMass, inCylRadius, inCylLength,inQuadRadius, inTMMass,...
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
         inR2Position, inR3Position, inR4Position, 0, false)]; 
+    
+    accDist = [accDist; forDist(end)/inTMMass];
 end
 
-accDis = forDist/tmMass;
-
-mu = prctile(accDis,50);
-up = prctile(accDis,84.1);
-low = prctile(accDis,15.9);
+mu = prctile(accDist,50);
+up = prctile(accDist,84.1);
+low = prctile(accDist,15.9);
 
 err = max([up-mu,mu-low]);
 
@@ -121,6 +125,8 @@ disp(['Cyl Radius: ' num2str(mu*1e15) ' fm/s^2 +- ' num2str(err*1e15) ' fm/s^2 (
 %% Cyl Length Calculation
 
 forDist = [];
+accDist = [];
+
 
 for index=0:N    
     
@@ -147,13 +153,14 @@ for index=0:N
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
         inR2Position, inR3Position, inR4Position, 0, false)]; 
     
+    accDist = [accDist; forDist(end)/inTMMass];
+    
 end
 
-accDis = forDist/tmMass;
 
-mu = prctile(accDis,50);
-up = prctile(accDis,84.1);
-low = prctile(accDis,15.9);
+mu = prctile(accDist,50);
+up = prctile(accDist,84.1);
+low = prctile(accDist,15.9);
 
 err = max([up-mu,mu-low]);
 
@@ -163,6 +170,8 @@ disp(['Cyl Length: ' num2str(mu*1e15) ' fm/s^2 +- ' num2str(err*1e15) ' fm/s^2 (
 %% Quad Radius Calculation
 
 forDist = [];
+accDist = [];
+
 
 for index=0:N    
     
@@ -190,13 +199,14 @@ for index=0:N
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
         inR2Position, inR3Position, inR4Position, 0, false)]; 
     
+    accDist = [accDist; forDist(end)/inTMMass];
+    
 end
 
-accDis = forDist/tmMass;
 
-mu = prctile(accDis,50);
-up = prctile(accDis,84.1);
-low = prctile(accDis,15.9);
+mu = prctile(accDist,50);
+up = prctile(accDist,84.1);
+low = prctile(accDist,15.9);
 
 err = max([up-mu,mu-low]);
 
@@ -205,6 +215,8 @@ disp(['Quad Radius: ' num2str(mu*1e15) ' fm/s^2 +- ' num2str(err*1e15) ' fm/s^2 
 %% TM Mass Calculation
 
 forDist = [];
+accDist = [];
+
 
 for index=0:N    
     
@@ -232,13 +244,14 @@ for index=0:N
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
         inR2Position, inR3Position, inR4Position, 0, false)]; 
     
+    accDist = [accDist; forDist(end)/inTMMass];
+    
 end
 
-accDis = forDist/tmMass;
 
-mu = prctile(accDis,50);
-up = prctile(accDis,84.1);
-low = prctile(accDis,15.9);
+mu = prctile(accDist,50);
+up = prctile(accDist,84.1);
+low = prctile(accDist,15.9);
 
 err = max([up-mu,mu-low]);
 
@@ -248,6 +261,8 @@ disp(['TM Mass: ' num2str(mu*1e15) ' fm/s^2 +- ' num2str(err*1e15) ' fm/s^2 (' .
 %% TM Radius Calculation
 
 forDist = [];
+accDist = [];
+
 
 for index=0:N    
     
@@ -275,13 +290,14 @@ for index=0:N
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
         inR2Position, inR3Position, inR4Position, 0, false)]; 
     
+    accDist = [accDist; forDist(end)/inTMMass];
+    
 end
 
-accDis = forDist/tmMass;
 
-mu = prctile(accDis,50);
-up = prctile(accDis,84.1);
-low = prctile(accDis,15.9);
+mu = prctile(accDist,50);
+up = prctile(accDist,84.1);
+low = prctile(accDist,15.9);
 
 err = max([up-mu,mu-low]);
 
@@ -290,6 +306,8 @@ disp(['TM Radius: ' num2str(mu*1e15) ' fm/s^2 +- ' num2str(err*1e15) ' fm/s^2 ('
 %% TM Length Calculation
 
 forDist = [];
+accDist = [];
+
 
 for index=0:N    
     
@@ -317,13 +335,14 @@ for index=0:N
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
         inR2Position, inR3Position, inR4Position, 0, false)]; 
     
+    accDist = [accDist; forDist(end)/inTMMass];
+    
 end
 
-accDis = forDist/tmMass;
 
-mu = prctile(accDis,50);
-up = prctile(accDis,84.1);
-low = prctile(accDis,15.9);
+mu = prctile(accDist,50);
+up = prctile(accDist,84.1);
+low = prctile(accDist,15.9);
 
 err = max([up-mu,mu-low]);
 
@@ -333,6 +352,8 @@ disp(['TM Length: ' num2str(mu*1e15) ' fm/s^2 +- ' num2str(err*1e15) ' fm/s^2 ('
 %% TM Width Calculation
 
 forDist = [];
+accDist = [];
+
 
 for index=0:N    
     
@@ -359,13 +380,14 @@ for index=0:N
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
         inR2Position, inR3Position, inR4Position, 0, false)]; 
     
+    accDist = [accDist; forDist(end)/inTMMass];
+    
 end
 
-accDis = forDist/tmMass;
 
-mu = prctile(accDis,50);
-up = prctile(accDis,84.1);
-low = prctile(accDis,15.9);
+mu = prctile(accDist,50);
+up = prctile(accDist,84.1);
+low = prctile(accDist,15.9);
 
 err = max([up-mu,mu-low]);
 
@@ -375,6 +397,8 @@ disp(['TM Width: ' num2str(mu*1e15) ' fm/s^2 +- ' num2str(err*1e15) ' fm/s^2 (' 
 %% Rotor Position Calculation
 
 forDist = [];
+accDist = [];
+
 
 for index=0:N    
     
@@ -401,13 +425,14 @@ for index=0:N
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
         inR2Position, inR3Position, inR4Position, 0, false)]; 
     
+    accDist = [accDist; forDist(end)/inTMMass];
+    
 end
 
-accDis = forDist/tmMass;
 
-mu = prctile(accDis,50);
-up = prctile(accDis,84.1);
-low = prctile(accDis,15.9);
+mu = prctile(accDist,50);
+up = prctile(accDist,84.1);
+low = prctile(accDist,15.9);
 
 err = max([up-mu,mu-low]);
 
@@ -444,13 +469,14 @@ for index=0:N
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
         inR2Position, inR3Position, inR4Position, 0, false)]; 
     
+    accDist = [accDist; forDist(end)/inTMMass];
+    
 end
 
-accDis = forDist/tmMass;
 
-mu = prctile(accDis,50);
-up = prctile(accDis,84.1);
-low = prctile(accDis,15.9);
+mu = prctile(accDist,50);
+up = prctile(accDist,84.1);
+low = prctile(accDist,15.9);
 
 err = max([up-mu,mu-low]);
 
@@ -460,6 +486,8 @@ disp(['TM Position: ' num2str(mu*1e15) ' fm/s^2 +- ' num2str(err*1e15) ' fm/s^2 
 %% TM Position Calculation
 
 forDist = [];
+accDist = [];
+
 
 for index=0:N    
     
@@ -487,13 +515,13 @@ for index=0:N
         inTMLength, inTMRadius, inTMWidth, inTMPosition, inR1Position, ...
         inR2Position, inR3Position, inR4Position, rotorPhaseErr, false)]; 
     
+    accDist = [accDist; forDist(end)/inTMMass];
 end
 
-accDis = forDist/tmMass;
 
-mu = prctile(accDis,50);
-up = prctile(accDis,84.1);
-low = prctile(accDis,15.9);
+mu = prctile(accDist,50);
+up = prctile(accDist,84.1);
+low = prctile(accDist,15.9);
 
 err = max([up-mu,mu-low]);
 
