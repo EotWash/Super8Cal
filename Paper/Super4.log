@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.4.27)  23 AUG 2022 13:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.4.27)  30 AUG 2022 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -841,18 +841,21 @@ loading the todonotes package. on input line 11.
 
 \openout3 = `Super4Notes.bib'.
 
-<Super4ModelNew.pdf, id=29, 693.06927pt x 493.60411pt>
-File: Super4ModelNew.pdf Graphic file (type pdf)
-<use Super4ModelNew.pdf>
-Package pdftex.def Info: Super4ModelNew.pdf  used on input line 56.
-(pdftex.def)             Requested size: 255.0pt x 181.60632pt.
+<Super4_Model.pdf, id=29, 669.9201pt x 387.35582pt>
+File: Super4_Model.pdf Graphic file (type pdf)
+<use Super4_Model.pdf>
+Package pdftex.def Info: Super4_Model.pdf  used on input line 56.
+(pdftex.def)             Requested size: 255.0pt x 147.44498pt.
 
 Overfull \hbox (9.0pt too wide) in paragraph at lines 56--57
  [][] 
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Super4ModelNew.PDF>]
-<Super4BSCTopDownAxesSpinNew.pdf, id=55, 839.04335pt x 973.4257pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Super4_Model.pdf>]
+<Super4BSCTopDownAxesSpinNew.pdf, id=52, 839.04335pt x 973.4257pt>
 File: Super4BSCTopDownAxesSpinNew.pdf Graphic file (type pdf)
 <use Super4BSCTopDownAxesSpinNew.pdf>
 Package pdftex.def Info: Super4BSCTopDownAxesSpinNew.pdf  used on input line 10
@@ -867,7 +870,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 104--105
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2 <./Super4BSCTopDownAxesSpinNew.pdf>]
-<Super4_Offset.pdf, id=68, 421.575pt x 316.18124pt>
+<Super4_Offset.pdf, id=65, 421.575pt x 316.18124pt>
 File: Super4_Offset.pdf Graphic file (type pdf)
 <use Super4_Offset.pdf>
 Package pdftex.def Info: Super4_Offset.pdf  used on input line 164.
@@ -881,7 +884,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 164--165
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3 <./Super4_Offset.pdf>]
-<Super4_Dist.pdf, id=86, 421.575pt x 316.18124pt>
+<Super4_Dist.pdf, id=83, 421.575pt x 316.18124pt>
 File: Super4_Dist.pdf Graphic file (type pdf)
 <use Super4_Dist.pdf>
 Package pdftex.def Info: Super4_Dist.pdf  used on input line 179.
@@ -953,8 +956,8 @@ Use acknowledgments instead.
 [5] (./Super4.aux) ) 
 Here is how much of TeX's memory you used:
  25596 strings out of 492615
- 488597 string characters out of 6131390
- 540450 words of memory out of 5000000
+ 488587 string characters out of 6131390
+ 540449 words of memory out of 5000000
  29158 multiletter control sequences out of 15000+600000
  538247 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -976,10 +979,10 @@ y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Super4.pdf (5 pages, 730968 bytes).
+Output written on Super4.pdf (5 pages, 454194 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
+ 164 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
