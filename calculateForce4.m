@@ -12,13 +12,27 @@ function [force]=calculateForce4(cylMass, cylRadius, cylLength, quadRadius, ...
     TMAxialGridPoints = 5;
     TMRadialGridPoints = 5;
 
+    
+    AlMass=2710*pi*(cylRadius)^2*cylLength;
+
+    
     Cylinder = genPointMassAnnlSheet(cylMass, 0, cylRadius, ...
             cylLength, CylinderAxialGridPoints, CylinderRadialGridPoints);
     Cylinder = rotatePMArray(Cylinder, pi/2, [0 1 0]);	
+    
+    %Make a rotor hole
+    Hole = genPointMassAnnlSheet(-AlMass, 0, cylRadius, ...
+        cylLength, CylinderAxialGridPoints, CylinderRadialGridPoints);
+    Hole = rotatePMArray(Hole, pi/2, [0 1 0]);
 
     R2 = translatePMArray(Cylinder, [quadRadius 0 0]);
+    R2H = translatePMArray(Hole, [quadRadius 0 0]);
 
-    Rotor = [R2;  rotatePMArray(R2, pi, [0 0 1])];
+    Rotor = [R2;  rotatePMArray(R2, pi, [0 0 1]);
+        R2H;
+        rotatePMArray(R2H, 1*pi/2, [0 0 1]);
+        rotatePMArray(R2H, 2*pi/2, [0 0 1]);
+        rotatePMArray(R2H, 3*pi/2, [0 0 1]);];
 
     TM = genPointMassFlatSideCyl(tmMass, tmWidth, tmRadius, tmLength,...
         TMAxialGridPoints, TMRadialGridPoints);
