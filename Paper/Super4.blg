@@ -1,47 +1,52 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Super4.aux
 The style file: unsrtnat.bst
 Database file #1: Super4Notes.bib
-Database file #2: Super8.bib
-You've used 22 entries,
+Database file #2: Super4.bib
+Repeated entry---line 620 of file Super4.bib
+ : @article{Bhattacharjee_2020
+ :                            ,
+I'm skipping whatever remains of this entry
+You've used 23 entries,
             2481 wiz_defined-function locations,
-            730 strings with 10954 characters,
-and the built_in function-call counts, 11295 in all, are:
-= -- 745
-> -- 1078
-< -- 5
-+ -- 383
-- -- 338
-* -- 1159
-:= -- 2056
-add.period$ -- 94
-call.type$ -- 22
-change.case$ -- 43
-chr.to.int$ -- 21
-cite$ -- 22
-duplicate$ -- 410
-empty$ -- 751
-format.name$ -- 366
-if$ -- 2208
+            737 strings with 11079 characters,
+and the built_in function-call counts, 11646 in all, are:
+= -- 779
+> -- 1085
+< -- 6
++ -- 387
+- -- 340
+* -- 1184
+:= -- 2109
+add.period$ -- 97
+call.type$ -- 23
+change.case$ -- 45
+chr.to.int$ -- 22
+cite$ -- 23
+duplicate$ -- 429
+empty$ -- 789
+format.name$ -- 369
+if$ -- 2283
 int.to.chr$ -- 2
-int.to.str$ -- 23
-missing$ -- 21
-newline$ -- 146
-num.names$ -- 66
-pop$ -- 133
+int.to.str$ -- 24
+missing$ -- 22
+newline$ -- 151
+num.names$ -- 69
+pop$ -- 140
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 23
 quote$ -- 0
-skip$ -- 217
+skip$ -- 228
 stack$ -- 0
-substring$ -- 343
-swap$ -- 55
+substring$ -- 370
+swap$ -- 57
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 154
+type$ -- 161
 warning$ -- 0
-while$ -- 66
+while$ -- 70
 width$ -- 0
-write$ -- 345
+write$ -- 358
+(There was 1 error message)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{23}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -74,6 +74,11 @@ BP~Abbott, R~Abbott, TD~Abbott, S~Abraham, F~Acernese, K~Ackley, C~Adams,
 \newblock \emph{Nature}, 551\penalty0 (7678):\penalty0 85--88, 2017.
 \newblock URL \url{https://www.nature.com/articles/nature24471}.
 
+\bibitem[Schutz(1986)]{schutz1986determining}
+Bernard~F Schutz.
+\newblock Determining the hubble constant from gravitational wave observations.
+\newblock \emph{Nature}, 323\penalty0 (6086):\penalty0 310--311, 1986.
+
 \bibitem[Abbott et~al.(2020{\natexlab{b}})Abbott, Abbott, Abraham, Acernese,
   Ackley, Adams, Adams, Adhikari, Adya, Affeldt, et~al.]{abbott2020tests}
 R~Abbott, TD~Abbott, S~Abraham, F~Acernese, K~Ackley, A~Adams, C~Adams,
@@ -99,7 +104,7 @@ D~Bhattacharjee, Y~Lecoeuche, S~Karki, J~Betzwieser, V~Bossilkov, S~Kandhasamy,
 \newblock Fiducial displacements with improved accuracy for the global network
   of gravitational wave detectors.
 \newblock \emph{Classical and Quantum Gravity}, 38\penalty0 (1):\penalty0
-  015009, dec 2020.
+  015009, nov 2020.
 \newblock \doi{10.1088/1361-6382/aba9ed}.
 \newblock URL \url{https://doi.org/10.1088/1361-6382/aba9ed}.
 
