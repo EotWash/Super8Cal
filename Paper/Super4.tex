@@ -16,10 +16,10 @@
 \email[]{mpross2@uw.edu}
 \author{J.H. Gundlach}
 \email[]{gundlach@uw.edu}
-\author{C. Weller}
 \author{E.G. Adelberger}
 \affiliation{Center for Experimental Nuclear Physics and Astrophysics, University of Washington, Seattle, Washington,
 98195, USA}
+\author{C. Weller}
 \author{Jeff Kissel}
 \affiliation{LIGO Hanford Observatory, Richland, WA 99352, USA}
 \author{Timesh Mistry}
@@ -45,7 +45,7 @@
 
 Gravitational wave astronomy has blossomed into a novel method to observe the universe. The number of gravitational wave observations is expected to grow substantially in the coming years with the continued operation of the LIGO \cite{aLIGO} and Virgo \cite{virgo} interferometers as well the future addition of LIGO-India \cite{ligo-india} and the further improvements of KAGRA \cite{kagra}. 
 
-Precise and robust absolute calibration of these interferometers is essential. Cosmological measurements \cite{abbott2021gravitational, ligo2017gravitational, schutz1986determining}, searches for deviations from general relativity \cite{abbott2020tests}, and binary-merger characterization \cite{abbott2020population} all require precise strain calibrations. Currently these calibrations are made using photon pressure \cite{PCal}. These calibration systems provide absolute calibrations limited to $\sim0.4\%$ uncertainty \cite{Bhattacharjee_2020}. In addition, relying on a single calibration system may introduce unknown systematics.
+Precise and robust absolute calibration of these interferometers is essential. Cosmological measurements \cite{abbott2021gravitational, ligo2017gravitational, schutz1986determining}, searches for deviations from general relativity \cite{abbott2020tests}, and binary-merger characterization \cite{abbott2020population} all require precise strain calibrations. Currently these calibrations are made using photon pressure \cite{PCal}. These calibration systems provide absolute calibrations limited to $\sim0.4\%$ uncertainty \cite{Bhattacharjee_2020}. In addition, relying on a single calibration system may be susceptible unknown systematics.
 
 %These interferometers must be precisely calibrated to accurately interpret gravitational wave signals. Whether for binary merger parameter estimation \cite{abbott2020population}, cosmological measurements \cite{abbott2021gravitational, ligo2017gravitational, schutz1986determining}, or searches for deviations from general relativity \cite{abbott2020tests}, the strain readouts of the observatories must be precisely and accurately calibrated to yield accurate scientific results.
 %
@@ -53,7 +53,7 @@ Precise and robust absolute calibration of these interferometers is essential. C
 
 Calibrating with a gravitationally induced strain has long been suggested as an alternative calibration technique \cite{hirakawa1980dynamical, kuroda1985experimental, mio1987experimental, astone1991evaluation, astone1998experimental, Matone_2007} and has recently been implemented at gravitational wave observatories \cite{Estevez_2018, estevez2021newtonian, PhysRevD.98.022005, ncal}. Operating both gravitational and photon calibration systems allows the systems to cross-check each other and combined yield a higher-precision absolute calibration.
 
-Single-rotor gravitational calibrators \cite{Estevez_2018, estevez2021newtonian, PhysRevD.98.022005, ncal} produce accelerations that have large dependence on the radial distance, $r$, between the rotor and the test mass. The acceleration is typically proportional to $\sim1/r^{l+2}$ where $l$ is the order of the dominate mass-multipole moment. For example, a rotor with a quadrupole mass distribution ($l=2$) will follow $\sim1/r^4$. This strong positioning dependence causes the performance of the absolute calibration to be limited by the precision of the rotor to test mass position measurement. 
+Single-rotor gravitational calibrators \cite{Estevez_2018, estevez2021newtonian, PhysRevD.98.022005, ncal} produce accelerations that have large dependence on the radial distance, $r$, between the rotor and the test mass. The acceleration is typically proportional to $\sim1/r^{l+2}$ where $l$ is the order of the dominant mass-multipole moment. For example, a rotor with a quadrupole mass distribution ($l=2$) will follow $\sim1/r^4$. This strong positioning dependence causes the performance of the absolute calibration to be limited by the measurement of the test mass to rotor seperation.
 
 \begin{figure}[!h]
 \centering \includegraphics[width=0.5\textwidth]{Super4_Model.pdf}
@@ -61,7 +61,7 @@ Single-rotor gravitational calibrators \cite{Estevez_2018, estevez2021newtonian,
 \label{cad} 
 \end{figure}
 
-Here, we present a novel geometry consisting of four quadrupole rotors that produces a pseudo plane-wave gravitational acceleration. This geometry has minimal first-order dependence on the position of the rotors relative to the test mass. It instead depend on the easy to measure positions between the rotors in the array. Additionally, this geometry suppresses the torques acting on the test mass and eases much of the engineering and safety concerns of previous rotors.
+Here, we present a novel geometry consisting of four quadrupole rotors that produces a pseudo plane-wave gravitational acceleration. This symmetric geometry has no first-order dependence on the position of the rotors relative to the test mass. It instead depend on the easy to measure positions between the rotors in the array. Additionally, this geometry suppresses the torques acting on the test mass and eases much of the engineering and safety concerns of previous rotors.
 
 %\begin{widetext}
 %\begingroup
@@ -190,7 +190,7 @@ Since the rotor array is in-plane and symmetric about the x-z plane, the rotors 
 
 \section{Numerical Uncertainty Analysis}
 
-The ultimate precision of our four-rotor calibrator depends not only on the test mass offset but on all the parameters in Table \ref{uncert}. We performed a Monte Carlo simulation of the applied acceleration accounting for the set of parameters which describe the calibrator. We model each parameter as a Gaussian distribution centered on the mean listed in Table \ref{uncert} with $\sigma$-value equal to the uncertainty. The acceleration of the test mass is then calculated with parameters sampled from these distributions. This is repeated 2000 times to yield a distribution of the gravitational acceleration, shown in Figure \ref{dist}, which takes into account all non-linearities and degeneracies. 
+The ultimate precision of our four-rotor calibrator depends on all the parameters in Table \ref{uncert}. We performed a Monte Carlo simulation of the applied acceleration accounting for the set of parameters which describe the calibrator. We modeled each parameter as a Gaussian distribution centered on the mean listed in Table \ref{uncert} with $\sigma$-value equal to the uncertainty. The acceleration of the test mass was then calculated with parameters sampled from these distributions. This was repeated 2000 times to yield a distribution of the gravitational acceleration, shown in Figure \ref{dist}, was taken into account all non-linearities and degeneracies. 
 
 
 The simulation yields an injected acceleration of a~=~101.37~$\pm$~0.15 fm/s$^2$~(0.15~\% ) where the central value is the mean and the uncertainty is the 68\%-confidence. To assess how each parameter contributes to this total uncertainty, the acceleration uncertainty was recomputed with only one parameter varying. This was then repeated for each parameter to yield the results in Table \ref{uncert}. All four rotor positions were simultaneously varied  in all three directions and the test mass position was also varied in all three directions.
