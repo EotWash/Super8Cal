@@ -28,7 +28,7 @@ tmWidthErr = 0.05e-3;
 tmMassErr = 10e-3;
 
 rotorPositionErr = [1e-3 1e-3 1e-3];
-tmPositionErr = [1e-2 1e-2 1e-2];
+tmPositionErr = [1e-3 1e-3 1e-3];
 
 rotorPhaseErr = 1/180*pi;
 

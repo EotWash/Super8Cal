@@ -442,6 +442,7 @@ disp(['Rotor Position: ' num2str(mu*1e15) ' fm/s^2 +- ' num2str(err*1e15) ' fm/s
 %% TM Position Calculation
 
 forDist = [];
+accDist = [];
 
 for index=0:N    
     
