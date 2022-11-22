@@ -42,15 +42,6 @@ T~Akutsu, M~Ando, K~Arai, Y~Arai, S~Araki, A~Araya, N~Aritomi, H~Asada, Y~Aso,
 \newblock Kagra: 2.5 generation interferometric gravitational wave detector.
 \newblock \emph{NATURE ASTRONOMY}, 3\penalty0 (1):\penalty0 35, 2019.
 
-\bibitem[Abbott et~al.(2020{\natexlab{a}})Abbott, Abbott, Abraham, Acernese,
-  Ackley, Adams, Adams, Adhikari, Adya, Affeldt, et~al.]{abbott2020population}
-Rich Abbott, TD~Abbott, S~Abraham, F~Acernese, K~Ackley, A~Adams, C~Adams,
-  RX~Adhikari, VB~Adya, C~Affeldt, et~al.
-\newblock Population properties of compact objects from the second {LIGO}-virgo
-  gravitational-wave transient catalog.
-\newblock \emph{arXiv preprint arXiv:2010.14533}, 2020{\natexlab{a}}.
-\newblock URL \url{https://arxiv.org/abs/2010.14533}.
-
 \bibitem[Abbott et~al.(2021)Abbott, Abbott, Abbott, Abraham, Acernese, Ackley,
   Adams, Adhikari, Adya, Affeldt, et~al.]{abbott2021gravitational}
 BP~Abbott, R~Abbott, TD~Abbott, S~Abraham, F~Acernese, K~Ackley, C~Adams,
@@ -79,14 +70,23 @@ Bernard~F Schutz.
 \newblock Determining the hubble constant from gravitational wave observations.
 \newblock \emph{Nature}, 323\penalty0 (6086):\penalty0 310--311, 1986.
 
-\bibitem[Abbott et~al.(2020{\natexlab{b}})Abbott, Abbott, Abraham, Acernese,
+\bibitem[Abbott et~al.(2020{\natexlab{a}})Abbott, Abbott, Abraham, Acernese,
   Ackley, Adams, Adams, Adhikari, Adya, Affeldt, et~al.]{abbott2020tests}
 R~Abbott, TD~Abbott, S~Abraham, F~Acernese, K~Ackley, A~Adams, C~Adams,
   RX~Adhikari, VB~Adya, C~Affeldt, et~al.
 \newblock Tests of general relativity with binary black holes from the second
   {LIGO}-virgo gravitational-wave transient catalog.
-\newblock \emph{arXiv preprint arXiv:2010.14529}, 2020{\natexlab{b}}.
+\newblock \emph{arXiv preprint arXiv:2010.14529}, 2020{\natexlab{a}}.
 \newblock URL \url{https://arxiv.org/abs/2010.14529}.
+
+\bibitem[Abbott et~al.(2020{\natexlab{b}})Abbott, Abbott, Abraham, Acernese,
+  Ackley, Adams, Adams, Adhikari, Adya, Affeldt, et~al.]{abbott2020population}
+Rich Abbott, TD~Abbott, S~Abraham, F~Acernese, K~Ackley, A~Adams, C~Adams,
+  RX~Adhikari, VB~Adya, C~Affeldt, et~al.
+\newblock Population properties of compact objects from the second {LIGO}-virgo
+  gravitational-wave transient catalog.
+\newblock \emph{arXiv preprint arXiv:2010.14533}, 2020{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2010.14533}.
 
 \bibitem[Karki et~al.(2016)Karki, Tuyenbayev, Kandhasamy, Abbott, Abbott,
   Anders, Berliner, Betzwieser, Cahillane, Canete, et~al.]{PCal}
