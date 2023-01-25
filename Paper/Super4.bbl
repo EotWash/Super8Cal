@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -210,5 +210,44 @@ C~Hagedorn and JG~Lee.
 \newblock Newt (newtonian eot-wash toolkit).
 \newblock \emph{GitHub}, 2021.
 \newblock URL \url{https://github.com/4kbt/NewtonianEotWashToolkit}.
+
+\bibitem[Raffai et~al.(2011)Raffai, Szeifert, Matone, Aso, Bartos, M\'arka,
+  Ricci, and M\'arka]{PhysRevD.84.082002}
+P\'eter Raffai, G\'abor Szeifert, Luca Matone, Yoichi Aso, Imre Bartos, Zsuzsa
+  M\'arka, Fulvio Ricci, and Szabolcs M\'arka.
+\newblock Opportunity to test non-newtonian gravity using interferometric
+  sensors with dynamic gravity field generators.
+\newblock \emph{Phys. Rev. D}, 84:\penalty0 082002, Oct 2011.
+\newblock \doi{10.1103/PhysRevD.84.082002}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.84.082002}.
+
+\bibitem[Ballmer et~al.(2010)Ballmer, M{\'{a}}rka, and Shawhan]{Ballmer_2010}
+S~Ballmer, S~M{\'{a}}rka, and P~Shawhan.
+\newblock Feasibility of measuring the shapiro time delay over meter-scale
+  distances.
+\newblock \emph{Classical and Quantum Gravity}, 27\penalty0 (18):\penalty0
+  185018, aug 2010.
+\newblock \doi{10.1088/0264-9381/27/18/185018}.
+\newblock URL \url{https://doi.org/10.1088/0264-9381/27/18/185018}.
+
+\bibitem[Sullivan et~al.(2020)Sullivan, Veske, M{\'{a}}rka, Bartos, Ballmer,
+  Shawhan, and M{\'{a}}rka]{Sullivan_2020}
+Andrew~G Sullivan, Do{\u{g}}a Veske, Zsuzsa M{\'{a}}rka, Imre Bartos, Stefan
+  Ballmer, Peter Shawhan, and Szabolcs M{\'{a}}rka.
+\newblock Can we use next-generation gravitational wave detectors for
+  terrestrial precision measurements of shapiro delay?
+\newblock \emph{Classical and Quantum Gravity}, 37\penalty0 (20):\penalty0
+  205005, sep 2020.
+\newblock \doi{10.1088/1361-6382/abb260}.
+\newblock URL \url{https://doi.org/10.1088/1361-6382/abb260}.
+
+\bibitem[Kawasaki(2020)]{NCalGPaper}
+Akio Kawasaki.
+\newblock Measurement of the newtonian constant of gravitation g by precision
+  displacement sensors.
+\newblock \emph{Classical and Quantum Gravity}, 37\penalty0 (7):\penalty0
+  075002, feb 2020.
+\newblock \doi{10.1088/1361-6382/ab6f80}.
+\newblock URL \url{https://doi.org/10.1088/1361-6382/ab6f80}.
 
 \end{thebibliography}
